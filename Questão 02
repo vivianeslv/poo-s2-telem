@@ -1,5 +1,6 @@
-//2. Calculadora de MÃ©dia
-Receba trÃªs nÃºmeros do usuÃ¡rio e calcule a mÃ©dia aritmÃ©tica. Use operadores aritmÃ©ticos (+, /) para fazer o cÃ¡lculo.
+/*2. Calculadora de MÃ©dia
+Receba trÃªs nÃºmeros do usuÃ¡rio e calcule a mÃ©dia aritmÃ©tica. Use operadores aritmÃ©ticos (+, /) para fazer o cÃ¡lculo.*/
+
 package Questoes;
 
 import java.util.Scanner;
