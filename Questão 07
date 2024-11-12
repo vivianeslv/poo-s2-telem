@@ -3,7 +3,7 @@ PeÃ§a a idade do usuÃ¡rio e verifique se ele pode votar (idade >= 16). Use o
 
 package Questoes;
 import java.util.Scanner;
-public class Maioridade {
+public class Votacao {
 	public static void main(String [] args) {
 		Scanner scanner = new Scanner(System.in);
 		System.out.println("Digite a sua idade: ");
