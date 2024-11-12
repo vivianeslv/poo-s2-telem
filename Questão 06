@@ -1,0 +1,19 @@
+//6. Desconto Aplicado
+Crie um programa que calcula o preÃ§o com desconto. Receba o preÃ§o original e o percentual de desconto (ex: 15%). Use o operador de multiplicaÃ§Ã£o * e subtraÃ§Ã£o - para calcular o valor final.
+import java.util.Scanner;
+
+public class DescontoAplicado {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        
+        System.out.print("Digite o preço original: ");
+        double preco = scanner.nextDouble();
+        System.out.print("Digite o percentual de desconto: ");
+        double desconto = scanner.nextDouble();
+        
+        double precoFinal = preco - (preco * (desconto / 100));
+        System.out.println("O preço com desconto é: " + precoFinal);
+        
+        scanner.close();
+    }
+}
