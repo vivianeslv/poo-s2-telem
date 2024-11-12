@@ -1,10 +1,7 @@
-//1. Soma Simples
-Escreva um programa que recebe dois nÃºmeros inteiros do usuÃ¡rio e exibe a soma deles. Use o operador +.
-package Questoes;
-
 /*1. Soma Simples
 Escreva um programa que recebe dois nÃºmeros inteiros do usuÃ¡rio e exibe a soma deles. Use o operador +.*/
 
+package Questoes;
 import java.util.Scanner;
 public class soma {
 	public static void main(String [] args) {
