@@ -1,0 +1,23 @@
+//9. VerificaÃ§Ã£o de Maioridade
+PeÃ§a duas idades e verifique se ambas as pessoas sÃ£o maiores de idade (>= 18). Use operadores lÃ³gicos (&&) e relacionais para fazer a verificaÃ§Ã£o.
+import java.util.Scanner;
+
+public class VerificacaoMaioridade {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        
+        System.out.print("Digite a idade da primeira pessoa: ");
+        int idade1 = scanner.nextInt();
+        System.out.print("Digite a idade da segunda pessoa: ");
+        int idade2 = scanner.nextInt();
+        
+        if (idade1 >= 18 && idade2 >= 18) {
+            System.out.println("Ambas as pessoas são maiores de idade.");
+        } else {
+            System.out.println("Pelo menos uma das pessoas não é maior de idade.");
+        }
+        
+        scanner.close();
+    }
+}
+
