@@ -1,0 +1,17 @@
+/*5. NÃºmero Dentro do Intervalo
+Receba um nÃºmero e verifique se ele estÃ¡ entre 10 e 20, inclusive. Use operadores lÃ³gicos (&&) e relacionais (>=, <=).*/
+
+package Questoes;
+import java.util.Scanner;
+public class VerificaMaior {
+	public static void main(String [] args) {
+		Scanner scanner = new Scanner(System.in);
+		System.out.println("Digite o número: ");
+		int num1 = scanner.nextInt();
+		if (num1 >= 10 && num1 <= 20) {
+			System.out.println("O número está entre 10 e 20");
+		} else {
+			System.out.println("O número não está entre 10 e 20");
+		}
+	}
+}

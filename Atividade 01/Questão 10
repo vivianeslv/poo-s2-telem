@@ -1,0 +1,36 @@
+/*10. Calculadora BÃ¡sica
+PeÃ§a dois nÃºmeros e um operador (+, -, *, /) ao usuÃ¡rio. Implemente uma calculadora que, com base no operador fornecido, realiza a operaÃ§Ã£o correspondente e exibe o resultado.*/
+
+package Questoes;
+import java.util.Scanner;
+
+public class Calculadora {
+	public static void main(String [] args) {
+		Scanner scanner = new Scanner(System.in);
+		System.out.println("Digite o primeiro número: ");
+		double num1 = scanner.nextDouble();
+		System.out.println("Digite o segundo número: ");
+		double num2 = scanner.nextDouble();
+		System.out.println("Digite o caractere de operação, só poderá ser: + (soma), - (subtração), * (multiplicação) ou / (divisão): ");
+		char operador = scanner.next().charAt(0);
+		double soma = num1 + num2;
+		double subtracao = num1 - num2;
+		double multiplicacao = num1 * num2;
+		double divisao = num1/num2;
+		if (operador == '+') {
+			System.out.print("A soma dos números é: " + soma);
+		} else if (operador == '-') {
+			System.out.print("A subtração dos números é: " + subtracao);
+		}else if (operador == '*' ) {
+			System.out.println("A multiplicação dos números é: " + multiplicacao);
+		}else if (operador == '/' ) {
+			if (num2 != 0) {
+			System.out.println("A divisão dos números é: " + divisao);
+			} else {
+				System.out.println("Erro! Divisão por zero");
+			}
+		}else {
+			System.out.print("Operador inválido");
+		}
+	}
+}
