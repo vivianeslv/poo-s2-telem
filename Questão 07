@@ -1,20 +1,17 @@
-//7. VerificaÃ§Ã£o de VotaÃ§Ã£o
-PeÃ§a a idade do usuÃ¡rio e verifique se ele pode votar (idade >= 16). Use operadores relacionais para determinar se a idade Ã© suficiente para votar.
-import java.util.Scanner;
+/*7. VerificaÃ§Ã£o de VotaÃ§Ã£o
+PeÃ§a a idade do usuÃ¡rio e verifique se ele pode votar (idade >= 16). Use operadores relacionais para determinar se a idade Ã© suficiente para votar.*/
 
-public class VerificacaoVotacao {
-    public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-        
-        System.out.print("Digite a sua idade: ");
-        int idade = scanner.nextInt();
-        
-        if (idade >= 16) {
-            System.out.println("Você pode votar.");
-        } else {
-            System.out.println("Você não pode votar.");
-        }
-        
-        scanner.close();
-    }
+package Questoes;
+import java.util.Scanner;
+public class Maioridade {
+	public static void main(String [] args) {
+		Scanner scanner = new Scanner(System.in);
+		System.out.println("Digite a sua idade: ");
+		int idade = scanner.nextInt();
+		if (idade >= 16) {
+			System.out.println("Você pode votar!");
+		} else {
+			System.out.println("Você não pode votar!");
+		}
+	}
 }
