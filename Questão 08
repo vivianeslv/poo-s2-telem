@@ -1,0 +1,13 @@
+//8. Operadores de Incremento
+Declare uma variÃ¡vel contador com valor inicial de 5. Use o operador de incremento ++ para aumentar o valor e exiba o novo valor. Em seguida, use o operador de decremento -- para diminuir o valor e mostre o resultado.
+public class OperadoresIncremento {
+    public static void main(String[] args) {
+        int contador = 5;
+        
+        contador++;
+        System.out.println("Valor após incremento: " + contador);
+        
+        contador--;
+        System.out.println("Valor após decremento: " + contador);
+    }
+}
