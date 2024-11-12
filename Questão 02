@@ -1,21 +1,19 @@
 //2. Calculadora de MÃ©dia
 Receba trÃªs nÃºmeros do usuÃ¡rio e calcule a mÃ©dia aritmÃ©tica. Use operadores aritmÃ©ticos (+, /) para fazer o cÃ¡lculo.
-import java.util.Scanner;
+package Questoes;
 
-public class CalculadoraMedia {
-    public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-        
-        System.out.print("Digite o primeiro número: ");
-        int num1 = scanner.nextInt();
-        System.out.print("Digite o segundo número: ");
-        int num2 = scanner.nextInt();
-        System.out.print("Digite o terceiro número: ");
-        int num3 = scanner.nextInt();
-        
-        double media = (num1 + num2 + num3) / 3.0;
-        System.out.println("A média é: " + media);
-        
-        scanner.close();
-    }
+import java.util.Scanner;
+public class media {
+	public static void main(String [] args) {
+		Scanner scanner = new Scanner(System.in);
+		System.out.println("Digite o primeiro número: ");
+		int num1 = scanner.nextInt();
+		System.out.println("Digite o segundo número: ");
+		int num2 = scanner.nextInt();
+		System.out.println("Digite o terceiro número: ");
+		int num3 = scanner.nextInt();
+		int media = ((num1 + num2 + num3)/3);
+		System.out.println("A média dos números " + num1 + ", " +  num2 + " e " + num3 + " é " + media);
+		
+	}
 }
